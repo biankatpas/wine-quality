@@ -7,7 +7,7 @@ This project is a web application built with **Streamlit** that uses a pre-train
 ```
 /
 |-- app.py                   # Streamlit application source code
-|-- wine_model.joblib           # Trained Machine Learning model
+|-- wine_model.joblib        # Trained Machine Learning model
 |-- wine_quality.ipynb       # Notebook with exploratory analysis and model training
 |-- requirements.txt         # List of Python dependencies
 |-- README.md                # This file
