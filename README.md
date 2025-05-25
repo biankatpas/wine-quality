@@ -60,3 +60,14 @@ streamlit run app.py
 ```
 
 After running the command, your web browser should automatically open a new tab with the application running. If it doesn't, the terminal will display the Local and Network URLs where the app is being served.
+
+## 🚀 Live Demo
+
+Click the badge below to try it live:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://biankatpas-wine-quality-app-f7idrp.streamlit.app/)
+
+### How it Works
+1.  Use the sliders on the sidebar to input the wine's physicochemical properties.
+2.  Click the **"Check Quality"** button.
+3.  The model will predict whether the wine is of "Good" or "Bad" quality and display the result.
