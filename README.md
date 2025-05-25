@@ -2,6 +2,17 @@
 
 This project is a web application built with **Streamlit** that uses a pre-trained Machine Learning model to predict wine quality ("Good" or "Bad") based on its physicochemical characteristics.
 
+## 📁 Project Structure
+
+```
+/
+|-- app.py                   # Streamlit application source code
+|-- wine_model.pkl           # Trained Machine Learning model
+|-- wine_quality.ipynb       # Notebook with exploratory analysis and model training
+|-- requirements.txt         # List of Python dependencies
+|-- README.md                # This file
+```
+
 ## 📋 Prerequisites
 
 Before you begin, ensure you have **Python 3.8 or higher** installed on your machine.
