@@ -7,7 +7,7 @@ This project is a web application built with **Streamlit** that uses a pre-train
 ```
 /
 |-- app.py                   # Streamlit application source code
-|-- wine_model.pkl           # Trained Machine Learning model
+|-- wine_model.joblib           # Trained Machine Learning model
 |-- wine_quality.ipynb       # Notebook with exploratory analysis and model training
 |-- requirements.txt         # List of Python dependencies
 |-- README.md                # This file
@@ -32,7 +32,7 @@ cd <PROJECT_FOLDER_NAME>
 ### 2. Create and Activate a Virtual Environment (venv)
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 After creating it, you need to activate it:
@@ -48,7 +48,7 @@ After activation, you will see (venv) at the beginning of your terminal prompt.
 With the virtual environment activated, install all the required libraries listed in the `requirements.txt` file.
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## ▶️ How to Run the Application
